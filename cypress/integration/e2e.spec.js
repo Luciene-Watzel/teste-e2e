@@ -19,7 +19,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
     //Deve fazer um pedido na loja Ebac Shop de ponta a ponta
 
-    it('Deve adicionar porduto ao carrinho - Usando comando Customizado', () => {
+    it('Deve adicionar porduto ao carrinho - Usando comando customizado', () => {
         cy.get('#primary-menu > .menu-item-629 > a').click()
         cy.addProdutos('.post-2559 > .product-block > .block-inner > .image > .product-image > .image-hover', 'M', 'Blue', 4)
 
